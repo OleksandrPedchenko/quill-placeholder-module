@@ -1,6 +1,6 @@
 {
-  "name": "quill-placeholder-module",
-  "version": "0.3.1",
+  "name": "qpm",
+  "version": "0.3.1-1",
   "description": "Quill module for inserting placeholders",
   "main": "dist/placeholder-module.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jspaine/quill-placeholder-module.git"
+    "url": "git+https://github.com/OleksandrPedchenko/quill-placeholder-module.git"
   },
   "keywords": [
     "quill",
@@ -22,9 +22,9 @@
   "author": "James Paine <painejs@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jspaine/quill-placeholder-module/issues"
+    "url": "https://github.com/OleksandrPedchenko/quill-placeholder-module/issues"
   },
-  "homepage": "https://github.com/jspaine/quill-placeholder-module#readme",
+  "homepage": "https://github.com/OleksandrPedchenko/quill-placeholder-module#readme",
   "devDependencies": {
     "@types/quill": "0.0.31",
     "babel-core": "^6.25.0",

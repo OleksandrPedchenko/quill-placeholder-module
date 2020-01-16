@@ -60,7 +60,9 @@ export default function getPlaceholderModule(Quill: QuillTypes.Quill, options?: 
       if (!placeholder) throw new Error(`Missing placeholder for ${identifier}`)
 
       this.quill.deleteText(selection.index, selection.length)
+      this.quill.insertText(selection.index, " ")
       this.quill.insertEmbed(selection.index, 'placeholder', placeholder, Quill.sources.USER)
+      this.quill.deleteText(selection.index+1, 1)
       this.quill.setSelection(selection.index + 1, 0)
     }
   }
